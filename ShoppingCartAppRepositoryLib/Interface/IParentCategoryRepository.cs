@@ -5,7 +5,7 @@ using Trendyol.ShoppingCartApp.Repository.Models;
 
 namespace Trendyol.ShoppingCartApp.Repository.Interface
 {
-    public interface ICouponRepository : IBaseRepository<Coupon, decimal>
+    public interface IParentCategoryRepository : IBaseRepository<ParentCategory, decimal>
     {
     }
 }

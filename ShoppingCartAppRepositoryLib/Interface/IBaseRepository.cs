@@ -11,7 +11,7 @@ namespace Trendyol.ShoppingCartApp.Repository.Interface
 {
     public interface IBaseRepository<T, ID> 
     {
-        IEnumerable<T> All();
+        //IEnumerable<T> All();
         Task<IEnumerable<T>> FindAllAsync();
         Task<long> CountAsync();
         Task DeleteAsync(T t);

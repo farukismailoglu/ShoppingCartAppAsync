@@ -6,4 +6,8 @@
     <RootNamespace>Trendyol.ShoppingCartApp.Service</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCartAppRepositoryLib\ShoppingCartAppRepositoryLib.csproj" />
+  </ItemGroup>
+
 </Project>

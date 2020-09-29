@@ -4,7 +4,7 @@ using Trendyol.ShoppingCartApp.Repository.Models;
 
 namespace Trendyol.ShoppingCartApp.Repository.Interface
 {
-    public interface IProductRepository /*: IBaseRepository<Product, decimal>*/
+    public interface IProductRepository : IBaseRepository<Product, decimal>
     {
 
     }

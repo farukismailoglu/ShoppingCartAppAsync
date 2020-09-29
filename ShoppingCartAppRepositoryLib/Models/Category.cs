@@ -11,9 +11,6 @@ namespace Trendyol.ShoppingCartApp.Repository.Models
         public virtual ICollection<Product> Products { get; set; }       
 
     }
-    
-    public partial class ParentCategory : BaseCategory
-    { }
 
 
 
